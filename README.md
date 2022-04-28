@@ -1,8 +1,8 @@
 # Development of an Exoskeleton Platform of the Finger for Objective Patient Monitoring
->This repository represents the source code for a novel mechatronic exoskeleton application for finger rehabilitation.
+>This repository represents the source code for a novel mechatronic exoskeleton application for finger rehabilitation and patient monitoring.
 
 
- <img src="assets\images\app_structure.png" alt="Drawing" style="width: 800px;">
+ <img src="assets\images\app_structure.png" alt="Drawing" style="width: 1600;">
 
 
 ## Setup
