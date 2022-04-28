@@ -1,0 +1,33 @@
+name: blueapp
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_blue: ^0.8.0
+  flutter_svg: ^1.0.1
+  linalg: ^0.4.0
+  oscilloscope: ^0.2.0+1
+  path_provider: ^2.0.9
+
+dev_dependencies:
+  flutter_staggered_grid_view: ^0.6.0
+  flutter_test:
+    sdk: flutter
+  intl: ^0.17.0
+  quiver: ^3.0.1+1
+  sqflite: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
