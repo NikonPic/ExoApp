@@ -302,10 +302,10 @@ class _ExoZentralScreenState extends State<ExoZentralScreen> {
       icon: myIcon,
       label: myLabel,
       style: ElevatedButton.styleFrom(
+        foregroundColor: Colors.black87,
+        backgroundColor: Colors.grey.shade300.withOpacity(0.5),
         textStyle: TextStyle(fontWeight: FontWeight.w200),
-        onPrimary: Colors.black87,
         shadowColor: Colors.white.withOpacity(0),
-        primary: Colors.grey.shade300.withOpacity(0.5),
         minimumSize: Size(100, 50),
         padding: EdgeInsets.symmetric(horizontal: 16),
         shape: const RoundedRectangleBorder(

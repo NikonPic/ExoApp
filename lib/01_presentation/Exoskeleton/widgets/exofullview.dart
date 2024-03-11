@@ -166,7 +166,8 @@ class MyParamsSetter extends StatelessWidget {
               Spacer(),
               !measurementMode
                   ? ElevatedButton.icon(
-                      style: ElevatedButton.styleFrom(primary: kPrimaryColor),
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: kPrimaryColor),
                       onPressed: () {
                         myExoCatch.play = !myExoCatch.play;
                       },

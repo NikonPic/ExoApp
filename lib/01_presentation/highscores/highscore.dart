@@ -60,7 +60,7 @@ class _HighScorePageState extends State<HighScorePage> {
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       maximumSize: Size(size.width * 0.8, 40),
-                      primary: Colors.grey.shade300,
+                      backgroundColor: Colors.grey.shade300,
                     ),
                     onPressed: () {
                       String readFileName =

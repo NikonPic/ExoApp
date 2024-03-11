@@ -179,10 +179,9 @@ class _MeasurementDetailPageState extends State<MeasurementDetailPage> {
       icon: myIcon,
       label: myLabel,
       style: ElevatedButton.styleFrom(
+        foregroundColor: Colors.black87,
+        backgroundColor: Colors.grey.shade300.withOpacity(0),
         textStyle: TextStyle(fontWeight: FontWeight.w200),
-        onPrimary: Colors.black87,
-        //shadowColor: Colors.white.withOpacity(0),
-        primary: Colors.grey.shade300.withOpacity(0),
         minimumSize: Size(100, 50),
         padding: EdgeInsets.symmetric(horizontal: 16),
         shape: const RoundedRectangleBorder(

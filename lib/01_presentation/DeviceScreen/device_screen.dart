@@ -148,7 +148,7 @@ class DeviceScreen extends StatelessWidget {
                       text,
                       style: Theme.of(context)
                           .primaryTextTheme
-                          .button
+                          .labelLarge
                           ?.copyWith(color: Colors.white),
                     ),
                   ),
@@ -183,8 +183,8 @@ class MyStyleButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        onPrimary: Colors.black87,
-        primary: Colors.grey.shade300,
+        foregroundColor: Colors.black87,
+        backgroundColor: Colors.grey.shade300,
         minimumSize: Size(100, 50),
         padding: EdgeInsets.symmetric(horizontal: 16),
         shape: const RoundedRectangleBorder(
